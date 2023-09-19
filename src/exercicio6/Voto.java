@@ -7,8 +7,8 @@ public class Voto {
         int idade;
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Digite a sua idade: ");
-        idade = Integer.parseInt(input.nextLine());
+        System.out.println("Digite a seu ano de nascimento: ");
+        idade = 2023 - Integer.parseInt(input.nextLine());
 
         String votoProibido = "Você não pode votar.";
         String votoOpcional = "Seu voto é opcional.";
